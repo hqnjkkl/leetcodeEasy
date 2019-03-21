@@ -1,0 +1,2 @@
+# leetcodeEasy
+leetcode easy problems
