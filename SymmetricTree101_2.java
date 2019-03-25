@@ -28,6 +28,7 @@ public class SymmetricTree101_2 {
 			return true;
 		}
 	 }
+	
 	public boolean symmetric(TreeNode l, TreeNode r) {
 		if (l == null && r == null)
 			return true;
