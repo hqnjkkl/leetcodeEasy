@@ -1,5 +1,17 @@
 package leetcodeEasy;
-
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+	public TreeNode(int val, TreeNode left, TreeNode right) {
+		super();
+		this.val = val;
+		this.left = left;
+		this.right = right;
+	}
+    
+}
 public class MaximumDepthOfBinaryTree104 {
 
 	public static void main(String[] args) {
@@ -23,17 +35,5 @@ public class MaximumDepthOfBinaryTree104 {
 /**
  * Definition for a binary tree node.
  * */
-  class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-	public TreeNode(int val, TreeNode left, TreeNode right) {
-		super();
-		this.val = val;
-		this.left = left;
-		this.right = right;
-	}
-      
-  }
+  
  
