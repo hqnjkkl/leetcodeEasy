@@ -32,6 +32,7 @@ public class SymmetricTree101_2 {
 	public boolean symmetric(TreeNode l, TreeNode r) {
 		if (l == null && r == null)
 			return true;
+		
 		if(l!=null && r!=null && l.val==r.val) {
 			if(symmetric(l.left, r.right)) {
 				return symmetric(l.right,r.left);
